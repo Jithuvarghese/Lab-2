@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("https://images.unsplash.com/photo-1517685352821-92cf88aee5a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8MTYwMjk3Mjc0Mg&ixlib=rb-1.2.1&q=80&w=1080")
+    no-repeat center center/cover;
+}
+/* header {
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1517685352821-92cf88aee5a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8MTYwMjk3Mjc0Mg&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+} */
+
+header h1 {
+    font-size: 4em;
+    margin: 0;
+}
+header p {
+    font-size: 1.5em;
+    margin: 20px 0 0;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url("https://images.unsplash.com/photo-1517685352821-92cf88aee5a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8MTYwMjk3Mjc0Mg&ixlib=rb-1.2.1&q=80&w=1080")
+    no-repeat center center/cover;
+}
+
+footer {
+        background: #333;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 20px;
+    }
+    
+    .gallery figure {
+        flex: 1 1 calc(33.333% - 20px); /* 3 columns layout with gap */
+        box-sizing: border-box;
+    }
+
+    .gallery-container {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    

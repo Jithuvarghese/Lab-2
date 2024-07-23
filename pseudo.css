@@ -1,0 +1,126 @@
+/* styles.css */
+
+/* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url("https://images.unsplash.com/photo-1517685352821-92cf88aee5a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8MTYwMjk3Mjc0Mg&ixlib=rb-1.2.1&q=80&w=1080")
+    no-repeat center center/cover;
+}
+
+header {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    margin: 0;
+}
+
+header h1 {
+    font-size: 4em;
+    margin: 0;
+}
+header p {
+    font-size: 1.5em;
+    margin: 20px 0 0;}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.location {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.location:hover {
+    background-color: #f9f9f9;
+}
+
+
+.location figure {
+    flex: 0 0 200px; /* Fixed width for the image */
+    margin-right: 20px;
+}
+
+.location img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.location h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.location p {
+    margin-bottom: 0;
+    color: #666;
+}
+
+/* Additional pseudo-classes */
+
+.location:active {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.location:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
+
+/* Example of nth-child */
+
+.location:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}

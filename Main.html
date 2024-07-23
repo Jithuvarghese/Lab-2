@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+        header {
+            background-image: url("bg.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 20px;
+}
+    </style>
+</head>
+<body>
+<div class="wrapper"> 
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="Main.html">
+                    <img src="webcrafters.png" alt="WebCrafters Logo" height="40">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Main.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Gallary.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="locations.html">Locations</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <header class="container p-5 my-2 bg-light rounded-3">
+    <h3 class="display-5 fw-bold">WebCrafters</h3>
+    <p class="col-md-8 lead">WebCrafters is a dynamic and innovative web designing company dedicated to creating visually stunning and functionally robust websites. Our mission is to help businesses establish a strong online presence, drive engagement, and achieve their digital goals through bespoke web solutions.</p>
+    <button class="btn btn-lg btn-dark">
+        Learn More
+    </button>
+    </header>
+
+<main>
+    <section id="hero">
+        <h1>Welcome to WebCrafters</h1>
+        <aside>WebCrafters is renowned for its exceptional front-end developers who play a crucial role in shaping the visual and interactive aspects of web applications.</aside>
+    </section>
+
+    <section id="about">
+        <article>
+            <h2>About Us</h2>
+            <p><aside>Welcome to WebCrafters - Your Partner in Digital Success!</aside></p>
+            <p>At WebCrafters, we specialize in crafting stunning websites that not only captivate visitors but also drive results. With years of experience and a passion for innovation, we blend creativity with technical expertise to deliver exceptional digital solutions for our clients.</p>
+            <p>Our team consists of talented designers, developers, and digital strategists who work collaboratively to bring your vision to life. Whether you're a startup looking to establish your online presence or a large corporation seeking to optimize your digital strategy, we have the skills and resources to meet your needs.</p>
+            <p>What sets us apart is our commitment to quality, transparency, and customer satisfaction. We take the time to understand your business objectives and tailor our solutions to achieve measurable outcomes. From responsive web design to e-commerce development and digital marketing, we offer a comprehensive suite of services to elevate your brand in the digital landscape.</p>
+            <p>Explore our portfolio to see examples of our work and discover how we've helped businesses like yours succeed online. Let's embark on this digital journey together and transform your ideas into reality.</p>
+        </article>
+        <aside>
+            <h3>Latest News</h3>
+            <p>Stay updated with our latest developments.</p>
+        </aside>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Web Design</p>
+        <p>Graphic Design</p>
+        <p>SEO Optimization</p>
+        <p>Mobile App Development</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery-container">
+        <div class="gallery">
+            <figure>
+                <img src="image1.jpg" alt="Project 1">
+                <figcaption>Project 1</figcaption>
+            </figure>
+            <figure>
+                <img src="image2.jpg" alt="Project 2">
+                <figcaption>Project 2</figcaption>
+            </figure>
+            <!-- More projects -->
+        </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 WebCrafters. All rights reserved.</p>
+</footer>
+</div>
+</body>
+</html>
